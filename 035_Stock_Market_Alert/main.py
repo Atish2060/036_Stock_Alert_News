@@ -51,7 +51,7 @@ summary2 = data_news["feed"][1]["summary"]
 news3 = data_news["feed"][2]["title"]
 summary3 = data_news["feed"][2]["summary"]
 
-#Sending the message in whatsapp through the use of Twilio
+#Sending message using twillio in whatsapp
 if rounded_percentage > 0:
     message = client.messages.create(
         from_="whatsapp:Twilio generated number",
